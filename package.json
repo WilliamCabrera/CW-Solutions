@@ -4,7 +4,15 @@
   "description": "Stock Price Analysis",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "precommit": "echo \"[Husky] precommit\"",
+    "commitmsg": "check-git-commit-msg --max-length=150 --pattern=\"/^\\[[\\w-]*\\]\\s\\w*(\\s&\\s\\w*)?\\s?:.*/\""
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run precommit",
+      "commit-msg": "npm run commitmsg"
+    }
   },
   "repository": {
     "type": "git",
