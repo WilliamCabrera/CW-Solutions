@@ -1,0 +1,23 @@
+{
+  "name": "cw-solutions",
+  "version": "1.0.0",
+  "description": "Stock Price Analysis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilliamCabrera/CW-Solutions.git"
+  },
+  "author": "William & Carlos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WilliamCabrera/CW-Solutions/issues"
+  },
+  "homepage": "https://github.com/WilliamCabrera/CW-Solutions#readme",
+  "devDependencies": {
+    "git-commit-message-checker": "^1.0.1",
+    "husky": "^4.3.8"
+  }
+}
