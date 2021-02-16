@@ -28,4 +28,5 @@
     "git-commit-message-checker": "^1.0.1",
     "husky": "^4.3.8"
   }
+
 }
